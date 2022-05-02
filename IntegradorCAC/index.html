@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+   rel="stylesheet" integrity="sha384-
+   F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+   crossorigin="anonymous">
+    <title>Integrador </title> 
+</head>
+
+<body>
+     <!-- LINK DE CSS -->
+    <header>
+      <link rel="stylesheet" href="css\style.css">
+      <!-- Bootstrap BARRA DE NAVEGACIÓN -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+    <a class="navbar-brand" href="#">
+      <img src="img/codoacodo.png" width="40" height="40" class="d-inline-block align-top" alt="Codo a codo logo">
+      Conferencia BsAs
+    </a>
+    <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+        <a class="nav-link" href="#">La conferencia </a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Los oradores</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">El lugar y la fecha</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Conviertete en orador</a>
+        </li>
+        <li class="nav-item active"></li>
+        <a class="nav-link" href="#"> <span class="navbar-text"> Comprar tickets 
+        </span> </a>
+      </li>
+      </ul>
+  </nav>
+</header>
+
+<main>
+
+<section class="first">
+ <div class="overflow-hidden p-3 p-md-5 m-md-3 bg-light">
+    <div class="col-md-5 ">
+      <h1 class="display-4 font-weight-normal">Conf Bs As</h1>
+      <p class="lead font-weight-normal">And an even wittier subheading to boot. Jumpstart your marketing efforts with this example based on Apple’s marketing pages.</p>
+      <a class="btn btn-outline-secondary" href="#">Quiero ser orador</a>
+      <a class="btn btn-primary" href="#">Comprar tickets </a>
+    </div>
+  </div>
+</section>
+
+  <section class="jumbotron text-center">
+    <div class="container">
+    <p class="lead text-muted">Conoce a nuestros</p>
+    <h1 class="jumbotron-heading">ORADORES</h1>
+  
+
+<!-- Bootstrap CARTAS -->
+
+    <div class="row">
+      <div class="col-sm-4 card">
+          <img src="img/steve.jpg" class="card-img-top" alt="Steve Jobs">
+          <p>
+          <button type="button" class="btn btn-warning"> JavaScript</button>
+          <button type="button" class="btn btn-primary">React </button>
+         </p>
+         <div class="card-body">
+            <h5 class="card-title">Steve Jobs</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+      </div>
+    
+       <div class="col-sm-4 card">
+        <img src="img/bill.jpg" class="card-img-top" alt="Bill Gates">
+         <p>
+          <button type="button" class="btn btn-warning"> JavaScript</button>
+          <button type="button" class="btn btn-primary">React </button>
+          </p>
+        <div class="card-body">
+          <h5 class="card-title">Bill Gates</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          </div>
+        </div>
+
+        <div class="col-sm-4 card">
+          <img src="img/ada.jpeg" class="card-img-top" alt="Ada Lovelace">
+          <p>
+          <button type="button" class="btn btn-secondary">Negocios</button>
+          <button type="button" class="btn btn-danger">StartUp</button>
+        </p>
+          <div class="card-body">
+          <h5 class="card-title">Ada Lovelace</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          </div>
+        </div>
+      </div>
+  </div>
+</section>
+  
+  <!-- Bootstrap PANTALLA DIVIDIDA -->
+  <section class ="pantallaDividida form-group row ">
+    <div class="col" id="izquierda">
+      <img src="img/honolulu.jpg"  alt="Imagen de hawai">
+    </div>
+
+    <div class="col" id="derecha">
+       <div class="parrafo">
+        <h3>
+          Bs As- Octubre
+        </h3>
+        <p>This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action. </p>
+        </div>
+        <a class="btn btn-outline-light" href="#">Conocer más</a>
+    </div>
+  </section>
+<!-- Bootstrap REGISTRO -->
+  <section class="text-center">
+    <p class="lead text-muted">Conviertete en un</p>
+    <h1 class="heading">ORADOR</h1>
+
+     <!-- Bootstrap REGISTRO -->
+    <form> 
+      <div class="form-group row ">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Nombre">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Apellido">
+          </div>
+        </div>
+      <div class="form-group row">
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="¿Sobre qué tema quiere hablar?"></textarea>
+    <small id="emailHelp" class="form-text text-muted">Recuerda escribir el título para tu charla. </small>
+    </div>
+    <div class="form-group">
+          <button type="submit" class="btn btn-success btn-block">          Enviar             </button>
+        </div>
+    </form>
+  
+</main>
+ <!-- Bootstrap FOOTER -->
+<footer>
+  <div class="footercont">
+    <footer class="row row-cols-5 py-5 my-5 border-top">
+      <div class="col">
+        <h5>Preguntas frecuentes</h5>
+      </div>
+      <div class="col">
+        <h5>Contáctanos</h5>
+      </div>
+      <div class="col">
+        <h5>Prensa</h5>
+      </div>
+      <div class="col">
+        <h5>Conferencias</h5>
+      </div>
+      <div class="col">
+        <h5>Términos y condiciones</h5>
+      </div>
+      <div class="col">
+        <h5>Privacidad </h5>
+      </div>
+      <div class="col">
+        <h5>Estudiantes </h5>
+      </div>
+    </footer>
+  </div>
+</footer> 
+</body>

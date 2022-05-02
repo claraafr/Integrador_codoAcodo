@@ -1,0 +1,42 @@
+
+header nav ul li a{
+    display: flex;
+    float: right;
+}  
+
+main section div.container  {
+    width: 80%;
+    padding-bottom: 2%;
+} 
+    main section div.row p button{
+    display: flex;
+  float: left;
+} 
+main section.pantallaDividida {
+    
+}
+main section.pantallaDividida #izquierda {
+    width: 50%;
+}
+main section.pantallaDividida #derecha {
+    width: 50%;
+    background-color: gray;
+    color: white;
+}
+main form {
+    width: 60%; 
+    justify-content: space-around;
+    margin-left: 20%;
+}
+main form div input{
+    display: flex;
+    align-items: center;
+} 
+main form div button {
+    width: 100%;
+} 
+footer div.footercont  {
+  background-color:navy;
+  color:white;
+  text-align:center;
+} 
